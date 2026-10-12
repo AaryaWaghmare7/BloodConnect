@@ -1,0 +1,43 @@
+# Frontend dependencies and generated output
+node_modules/
+dist/
+coverage/
+.vite/
+frontend/verification/
+
+# Local secrets; only reviewed example files may be committed
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Java build output
+target/
+build/
+out/
+.gradle/
+*.class
+*.jar
+*.war
+*.ear
+!gradle/wrapper/gradle-wrapper.jar
+
+# IDE and operating system files
+.idea/
+.vscode/
+.settings/
+.metadata/
+.project
+.classpath
+*.iml
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Logs, temporary files, and database backups
+*.log
+*.tmp
+*.dump
+*.sql.gz
+backups/
